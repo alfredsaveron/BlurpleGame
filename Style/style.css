@@ -762,3 +762,23 @@ hr {
   .game-message .lower {
     margin-top: 30px !important;
   }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #262626; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7289da; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7289da; 
+}
